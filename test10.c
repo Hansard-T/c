@@ -34,21 +34,21 @@ int main()
                 if(v[a][b]<average1[b])
                     i=0;
 }
-         if(i==1) 
-             number++;
+     if(i==1) 
+         number++;
 }
 
-        printf( "%.2lf",average[0] );
-        for(int a=1;a<n;a++)
-            printf("%.2lf",average[a] );
-            putchar('\n');
+    printf( "%.2lf",average[0] );
+    for(int a=1;a<n;a++)
+        printf("%.2lf",average[a] );
+        putchar('\n');
 
-        printf( "%.2lf",average1[0] );
-        for(int a=1;a<m;a++)
-            printf(" %.2lf",average1[a] );
+    printf("%.2lf",average1[0] );
+    for(int a=1;a<m;a++)
+            printf("%.2lf",average1[a] );
             putchar('\n');
 		
-        printf("%d\n\n",number);
+    printf("%d\n\n",number);
 }
     return 0;
 }
